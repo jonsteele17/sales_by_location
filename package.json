@@ -1,0 +1,26 @@
+{
+  "name": "sales_by_location",
+  "version": "1.0.0",
+  "description": "",
+  "main": "import.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonsteele17/sales_by_location.git"
+  },
+  "author": "Jonathan Steele <jonathan.s@hvac-distributing.com> <jonsteele94@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonsteele17/sales_by_location/issues"
+  },
+  "homepage": "https://github.com/jonsteele17/sales_by_location#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "husky": "^8.0.3"
+  }
+}
