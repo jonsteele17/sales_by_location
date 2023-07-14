@@ -1,10 +1,7 @@
 import { createPool } from "mysql"; // library (package) npmjs.org
 import XLSX from "xlsx"; // library (package) npmjs.org
 
-const filename = Directory.getFiles(
-  "C:UsersJonathanSteelegit",
-  "*YTD Sales Report*.xls"
-).FirstOrDefault;
+const filename = "YTD Sales Report - JonS.xls";
 const expectedSheetName = "Sheet1"; // The name of the sheet in the excel file
 const headerRow = 4; // The row number of the header row in the excel file
 
