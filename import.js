@@ -1,9 +1,12 @@
 import { createPool } from "mysql"; // library (package) npmjs.org
 import XLSX from "xlsx"; // library (package) npmjs.org
 
-const filename = "raw.xls"; // 'raw.xls' has one page // 'raw2.xls' has multiple pages
+const filename = Directory.getFiles(
+  "C:UsersJonathanSteelegit",
+  "*YTD Sales Report*.xls"
+).FirstOrDefault;
 const expectedSheetName = "Sheet1"; // The name of the sheet in the excel file
-const headerRow = 2; // The row number of the header row in the excel file
+const headerRow = 4; // The row number of the header row in the excel file
 
 const workbook = XLSX.readFile(filename, {
   cellDates: true,
